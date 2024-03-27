@@ -6,7 +6,7 @@ import MiniBrowser from '../minibrowser/mini-browser';
     <div>
      
       <MiniBrowser>
-        {/* Your content goes here */}
+       
         <p>This is the content inside the mini browser.</p>
       </MiniBrowser>
     </div>

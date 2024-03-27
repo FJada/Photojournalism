@@ -28,9 +28,9 @@ import React, { useState } from 'react';
 import './styles.css';  
 
 const MiniBrowser = ({ children }) => {
-  const [tabs, setTabs] = useState([
+  const [tabs] = useState([
     { id: 1, title: 'Home', url: '/' },
-    { id: 2, title: 'About', url: '/about' },
+    { id: 2, title: 'About', url: '/About' },
     { id: 3, title: 'Contact', url: '/contact' },
   ]);
 

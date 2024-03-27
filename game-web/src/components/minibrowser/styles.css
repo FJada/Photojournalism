@@ -3,14 +3,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100vw; 
     height: 100vh;
-    background-color:#dcb991;
     
   }
   
   .mini-browser {
-    width: 800px; 
-    border: 1px solid #ccc;
+    width: 1000px; 
+    height: 500px;
+    border: 6px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
     background-color: #add8e6;
@@ -26,7 +27,6 @@
   
   .buttons {
     display: flex;
-   
   }
   
   .button {
@@ -37,15 +37,15 @@
   }
   
   .close {
-    background-color: #ff5f56; /* Red */
+    background-color: #ff5f56; 
   }
   
   .minimize {
-    background-color: #ffbd2e; /* Yellow */
+    background-color: #ffbd2e; 
   }
   
   .maximize {
-    background-color: #27c93f; /* Green */
+    background-color: #27c93f; 
   }
   
   .address-bar {

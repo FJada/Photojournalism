@@ -2,7 +2,7 @@ import React from 'react';
 
 const SmallerBrowser = ({ children }) => {
     return (
-        <div className="container mx-auto">
+       
           <div className="border rounded shadow-lg overflow-hidden bg-white mini-browser">
             <div className="bg-gray-200 p-2 flex items-center justify-between browser-bar">
               <div className="buttons flex">
@@ -18,7 +18,6 @@ const SmallerBrowser = ({ children }) => {
               {children}
             </div>
           </div>
-        </div>
       );
     };
   export default SmallerBrowser;
