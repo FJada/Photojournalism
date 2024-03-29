@@ -7,7 +7,7 @@ import gatcha from '../../assets/present/gatcha.jpg'
      
       <MiniBrowser>
        
-        <p>Welcome to Gaming as Third Space </p>
+        <p>Welcome to the Exploration of Gaming as Third Space </p>
         <div className="column">
         <img src={gatcha} style={{ width: '80%', display: 'inline-block', height: 'auto'  }}/>
         </div>

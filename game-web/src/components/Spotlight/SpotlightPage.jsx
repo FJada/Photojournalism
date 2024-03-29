@@ -23,35 +23,35 @@ const Spotlight = () => {
       <div className="row">
         <div className="column">
           <img src={groupGame}  />
-          <p>Caption for Image 1</p>
+          <p>Group of men watch as a pair play an intense game at Chinatown Park</p>
         </div>
         <div className="column">
           <img src={arcade1}  />
-          <p>Caption for Image 2</p>
+          <p>Inside an empty arcade</p>
         </div>
         <div className="column">
           <img src={tiles1} />
-          <p>Caption for Image 3</p>
+          <p> A closeup of a game using tiles </p>
         </div>
       </div>
       <div className="row">
         <div className="column">
           <img src={cards1}  />
-          <p>Caption for Image 4</p>
+          <p>Group playing card games in Chinatown Park</p>
         </div>
         <div className="column">
           <img src={chess1}  />
-          <p>Caption for Image 5</p>
+          <p>Man spectates an intense match of chess in Washington Square park </p>
         </div>
         <div className="column">
           <img src={cards2} />
-          <p>Caption for Image 6</p>
+          <p>Group of ladies plaing cards in Chinatown park</p>
         </div>
       </div>
     </div>
     <div className="text-column">
       {/* Text content for the right column */}
-      <p>This is the text content that will fill the right column.</p>
+      <p></p>
     </div>
       </MiniBrowser>
     </div>
