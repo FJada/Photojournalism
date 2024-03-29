@@ -1,114 +1,3 @@
-// import React from 'react';
-// import MiniBrowser from '../minibrowser/mini-browser';
-// import './styles.css';  
-
-// import arcade2 from '../../assets/gallery/arcade2.jpg';
-// import arcade3 from '../../assets/gallery/arcade3.jpg';
-// import campaigngame from '../../assets/gallery/campaign-game.jpg';
-// import chess2 from '../../assets/gallery/chess2.jpg';
-// import chess3 from '../../assets/gallery/chess3.jpg';
-// import conversing from '../../assets/gallery/conversing.jpg';
-// import friendlygame from '../../assets/gallery/friendlygame1.jpg';
-// import online from '../../assets/gallery/online.jpg';
-// import os1 from '../../assets/gallery/os1.jpg';
-// import os2 from '../../assets/gallery/os2.jpg';
-// import screens from '../../assets/gallery/screens.jpg';
-// import screens2 from '../../assets/gallery/screens2.jpg';
-// import tiles2 from '../../assets/gallery/tiles2.jpg';
-// import uncommons1 from '../../assets/gallery/uncommons1.jpg';
-// import uncommons2 from '../../assets/gallery/uncommons2.jpg';
-
-
-//  const Gallery = () => {
-//   return (
-//     <div>
-     
-//       <MiniBrowser>
-       
-//       <div class="gallery">
-//   <div class="row">
-//     <div class="column">
-//       <img src={arcade2}  />
-//       <p>Caption for Image 1</p>
-//     </div>
-//     <div class="column">
-//       <img src={arcade3}  />
-//       <p>Caption for Image 2</p>
-//     </div>
-//     <div class="column">
-//       <img src={campaigngame}  />
-//       <p>Caption for Image 3</p>
-//     </div>
-//   </div>
-//   <div class="row">
-//     <div class="column">
-//       <img src={chess2}  />
-//       <p>Caption for Image 1</p>
-//     </div>
-//     <div class="column">
-//       <img  src={chess3} />
-//       <p>Caption for Image 2</p>
-//     </div>
-//     <div class="column">
-//       <img src={conversing} />
-//       <p>Caption for Image 3</p>
-//     </div>
-//   </div>
-//   <div class="row">
-//     <div class="column">
-//       <img  src={friendlygame} />
-//       <p>Caption for Image 1</p>
-//     </div>
-//     <div class="column">
-//       <img src={online} />
-//       <p>Caption for Image 2</p>
-//     </div>
-//     <div class="column">
-//       <img src={os1} />
-//       <p>Caption for Image 3</p>
-//     </div>
-//     </div>
-
-// <div class="row">
-//     <div class="column">
-//       <img  src={os2} />
-//       <p>Caption for Image 1</p>
-//     </div>
-//     <div class="column">
-//       <img src={screens} />
-//       <p>Caption for Image 2</p>
-//     </div>
-//     <div class="column">
-//       <img src={screens2} />
-//       <p>Caption for Image 3</p>
-//     </div>
-//     </div>
-
-//     <div class="row">
-//     <div class="column">
-//       <img  src={uncommons1} />
-//       <p>Caption for Image 1</p>
-//     </div>
-//     <div class="column">
-//       <img src={uncommons2} />
-//       <p>Caption for Image 2</p>
-//     </div>
-//     <div class="column">
-//       <img src={tiles2} />
-//       <p>Caption for Image 3</p>
-//     </div>
-//     </div>
-
-
-//       </div>
-//       </MiniBrowser>
-//     </div>
-//   );
-// };
-
-// export default Gallery;
-
-
 import React from 'react';
 import MiniBrowser from '../minibrowser/mini-browser';
 import './styles.css';
@@ -128,6 +17,9 @@ import screens2 from '../../assets/gallery/screens2.jpg';
 import tiles2 from '../../assets/gallery/tiles2.jpg';
 import uncommons1 from '../../assets/gallery/uncommons1.jpg';
 import uncommons2 from '../../assets/gallery/uncommons2.jpg';
+import online2 from '../../assets/gallery/online2.jpg';
+import duo from '../../assets/gallery/duo.jpg';
+import solo1 from '../../assets/gallery/solo1.jpg';
 
 const Gallery = () => {
   return (
@@ -201,6 +93,20 @@ const Gallery = () => {
             </div>
             <div className="column">
               <img src={tiles2} alt="Image 15" />
+              <p>Caption for Image 15</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="column">
+              <img src={duo} alt="Image 13" />
+              <p>Caption for Image 13</p>
+            </div>
+            <div className="column">
+              <img src={solo1} alt="Image 14" />
+              <p>Caption for Image 14</p>
+            </div>
+            <div className="column">
+              <img src={online2} alt="Image 15" />
               <p>Caption for Image 15</p>
             </div>
           </div>
