@@ -29,85 +29,82 @@ const Gallery = () => {
           <div className="row">
             <div className="column">
               <img src={arcade2} alt="Image 1" />
-              <p>Caption for Image 1</p>
+             
             </div>
             <div className="column">
               <img src={arcade3} alt="Image 2" />
-              <p>Caption for Image 2</p>
+            
             </div>
             <div className="column">
               <img src={campaigngame} alt="Image 3" />
-              <p>Caption for Image 3</p>
+             
             </div>
           </div>
           <div className="row">
             <div className="column">
               <img src={chess2} alt="Image 4" />
-              <p>Caption for Image 4</p>
+             
             </div>
             <div className="column">
               <img src={chess3} alt="Image 5" />
-              <p>Caption for Image 5</p>
+              
             </div>
             <div className="column">
               <img src={conversing} alt="Image 6" />
-              <p>Caption for Image 6</p>
+              
             </div>
           </div>
           <div className="row">
             <div className="column">
               <img src={friendlygame} alt="Image 7" />
-              <p>Caption for Image 7</p>
+              
             </div>
             <div className="column">
               <img src={online} alt="Image 8" />
-              <p>Caption for Image 8</p>
+             
             </div>
             <div className="column">
               <img src={os1} alt="Image 9" />
-              <p>Caption for Image 9</p>
+              
             </div>
           </div>
           <div className="row">
             <div className="column">
               <img src={os2} alt="Image 10" />
-              <p>Caption for Image 10</p>
+             
             </div>
             <div className="column">
               <img src={screens} alt="Image 11" />
-              <p>Caption for Image 11</p>
+            
             </div>
             <div className="column">
               <img src={screens2} alt="Image 12" />
-              <p>Caption for Image 12</p>
+             
             </div>
           </div>
           <div className="row">
             <div className="column">
               <img src={uncommons1} alt="Image 13" />
-              <p>Caption for Image 13</p>
+             
             </div>
             <div className="column">
               <img src={uncommons2} alt="Image 14" />
-              <p>Caption for Image 14</p>
+             
             </div>
             <div className="column">
               <img src={tiles2} alt="Image 15" />
-              <p>Caption for Image 15</p>
+              
             </div>
           </div>
           <div className="row">
             <div className="column">
               <img src={duo} alt="Image 13" />
-              <p>Caption for Image 13</p>
             </div>
             <div className="column">
               <img src={solo1} alt="Image 14" />
-              <p>Caption for Image 14</p>
             </div>
             <div className="column">
               <img src={online2} alt="Image 15" />
-              <p>Caption for Image 15</p>
             </div>
           </div>
         </div>
