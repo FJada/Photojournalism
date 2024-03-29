@@ -11,21 +11,21 @@
   .mini-browser {
     position: relative;
     width: 1200px; 
-    height: 700px; /* Set a fixed height for the mini browser */
+    height: 700px; 
     border: 6px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
     background-color: #add8e6;
-    display: flex; /* Use Flexbox */
-  flex-direction: column; /* Arrange children vertically */
+    display: flex; 
+  flex-direction: column; 
   }
   
   .browser-bar {
-    position: absolute; /* Set the browser bar to have an absolute position */
-  top: 0; /* Position it at the top of the mini browser */
-  left: 0; /* Align it to the left of the mini browser */
-  width: 100%; /* Make it take the full width of the mini browser */
-  z-index: 999; /* Ensure it's above other content */
+    position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 999; 
   background-color: #f1f1f1;
   }
   
@@ -63,11 +63,11 @@
   
   .browser-content {
     padding-top: 40px;
-    overflow-y: auto; /* Allow content to scroll */
-    height: calc(100% - 40px); /* Adjust height to fill remaining space */
+    overflow-y: auto; 
+    height: calc(100% - 40px); 
     
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    justify-content: center;
+    align-items: center; 
 
    
   }

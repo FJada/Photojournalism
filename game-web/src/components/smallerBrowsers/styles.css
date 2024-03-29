@@ -37,15 +37,15 @@
   }
   
   .close {
-    background-color: #ff5f56; /* Red */
+    background-color: #ff5f56; 
   }
   
   .minimize {
-    background-color: #ffbd2e; /* Yellow */
+    background-color: #ffbd2e; 
   }
   
   .maximize {
-    background-color: #27c93f; /* Green */
+    background-color: #27c93f; 
   }
   
   .address-bar {

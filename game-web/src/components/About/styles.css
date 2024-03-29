@@ -1,0 +1,19 @@
+.about-content {
+    display: flex;
+  }
+  
+  .image-column {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .text-column {
+    flex: 1;
+    padding: 20px; 
+  }
+  
+  .text-column p {
+    margin: 0; 
+  }
+  

@@ -16,7 +16,7 @@
   }
   
   .column {
-    flex-basis: 2000px; /* Set the width of each column to match the width of the images */
+    flex-basis: 2000px; 
   }
   
   

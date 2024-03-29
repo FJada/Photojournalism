@@ -1,13 +1,17 @@
 import React from 'react';
 import MiniBrowser from '../minibrowser/mini-browser';
-
+import gatcha from '../../assets/present/gatcha.jpg'
  const Home = () => {
   return (
     <div>
      
       <MiniBrowser>
        
-        <p>This is the content inside the mini browser.</p>
+        <p>Welcome to Gaming as Third Space </p>
+        <div className="column">
+        <img src={gatcha} style={{ width: '80%', display: 'inline-block', height: 'auto'  }}/>
+        </div>
+        
       </MiniBrowser>
     </div>
   );
