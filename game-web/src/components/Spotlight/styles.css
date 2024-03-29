@@ -12,16 +12,19 @@
   }
   
   .column {
-    flex-basis: calc(100.33% - 20px); /* Adjust the width of each column */
+    flex-basis: calc(100% - 20px); /* Adjust the width of each column */
     margin-bottom: 20px;
     padding-left: 50px; /* Add padding to the left side of each column */
+    padding-right: 50px;
   }
   
   img {
-    width: 100%; /* Ensure all images take up the full width of their container */
+    width: 120%; /* Ensure all images take up the full width of their container */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove extra space below images */
-    margin-bottom: 10px; /* Add space between images */
+    margin-bottom: 30px; /* Add space between images */
+    padding-left: 50px; /* Add padding to the left side of each column */
+    padding-right: 50px;
   }
   .text-column {
     flex-grow: 1; /* Allow the text column to grow and fill available space */
